@@ -1,0 +1,53 @@
+{
+  "_name_or_path": "allenai/led-base-16384",
+  "activation_dropout": 0.0,
+  "activation_function": "gelu",
+  "architectures": [
+    "LEDForConditionalGeneration"
+  ],
+  "attention_dropout": 0.0,
+  "attention_window": [
+    1024,
+    1024,
+    1024,
+    1024,
+    1024,
+    1024
+  ],
+  "bos_token_id": 0,
+  "classif_dropout": 0.0,
+  "classifier_dropout": 0.0,
+  "d_model": 768,
+  "decoder_attention_heads": 12,
+  "decoder_ffn_dim": 3072,
+  "decoder_layerdrop": 0.0,
+  "decoder_layers": 6,
+  "decoder_start_token_id": 2,
+  "dropout": 0.1,
+  "encoder_attention_heads": 12,
+  "encoder_ffn_dim": 3072,
+  "encoder_layerdrop": 0.0,
+  "encoder_layers": 6,
+  "eos_token_id": 2,
+  "gradient_checkpointing": false,
+  "id2label": {
+    "0": "LABEL_0",
+    "1": "LABEL_1",
+    "2": "LABEL_2"
+  },
+  "init_std": 0.02,
+  "is_encoder_decoder": true,
+  "label2id": {
+    "LABEL_0": 0,
+    "LABEL_1": 1,
+    "LABEL_2": 2
+  },
+  "max_decoder_position_embeddings": 1024,
+  "max_encoder_position_embeddings": 16384,
+  "model_type": "led",
+  "num_hidden_layers": 6,
+  "pad_token_id": 1,
+  "transformers_version": "4.3.0.dev0",
+  "use_cache": true,
+  "vocab_size": 50265
+}
