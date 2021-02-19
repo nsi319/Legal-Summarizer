@@ -13,12 +13,6 @@ When the model is used for summarizing legal documents, achieves the following r
 
 Test results :
 
-## Evaluation results
-
-When the model is used for classification test dataset, achieves the following results:
-
-Test results :
-
-| Model | Rouge1  | Rouge2 | Rouge Lsum |
-|:-----:|:-----:|:-----:|:-----:|
-|   legal_t5_small_summ_en | 78.11|68.78 |77.0|
+| Model | Rouge1-Precision  | Rouge1-Fmeasure |
+|:-----:|:-----:|:-----:|
+|   legal_led-base-16384 | 58.42|54.89 |
