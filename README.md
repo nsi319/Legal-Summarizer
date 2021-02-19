@@ -15,4 +15,4 @@ Test results :
 
 | Model | Rouge1-Precision  | Rouge1 |
 |:-----:|:-----:|:-----:|
-|   legal_led-base-16384 | 58.42|54.89 |
+|   legal-led-base-16384 | 58.42|54.89 |
