@@ -13,6 +13,6 @@ When the model is used for summarizing legal documents, achieves the following r
 
 Test results :
 
-| Model | Rouge1-Precision  | Rouge1-Fmeasure |
+| Model | Rouge1-Precision  | Rouge1 |
 |:-----:|:-----:|:-----:|
 |   legal_led-base-16384 | 58.42|54.89 |
