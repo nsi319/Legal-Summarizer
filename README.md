@@ -1,4 +1,4 @@
-## LED for legal summarization of documents
+## LED for summarization of legal documents
 This is a Longformer Encoder Decoder ([led-base-16384](https://huggingface.co/allenai/led-base-16384)) model for the **legal domain**, trained for **long document abstractive summarization** task. The length of the document can be upto 16,384 tokens.
 
 ## Training data
@@ -25,7 +25,6 @@ summary_ids = model.generate(input_tokenized,
                                   max_length=500)
 summary = [tokenizer.decode(g, skip_special_tokens=True, clean_up_tokenization_spaces=False) for g in summary_ids][0]
 ### Summary Output
-
 # On March 2, 2018, the Securities and Exchange Commission charged Beaufort Securities Ltd. and Peter Kyriacou, an investment manager at Beaufort, with manipulating the market for HD View 360 Inc., a U.S.-based microcap issuer.  The SEC also announced charges against HD View's CEO, another individual, and three entities they control for manipulating HD View through pump-and-dump schemes.  According to the SEC's complaint, the defendants discussed depositing large blocks of microcap stock in Beaufort accounts, driving up the price of the stock through promotions, manipulating the stock's price and volume through matched trades, and then selling the shares for a large profit.  In a parallel action, the United States Attorney's Office for the Eastern District of New York announced criminal charges against the defendants.  On March 4, the SEC announced the entry of an order suspending trading in the securities of HD View and for West Coast, pending the outcome of a parallel criminal action by the Federal Bureau of Investigation.  Following the announcement of the suspension, HD View stock prices and volume increased significantly, and the defendants agreed to pay over $1.5 million in disgorgement, prejudgment interest, penalties, and an officer and director bar.  Beaufort agreed to settle the charges without admitting or denying the allegations of the complaint, and to pay a $1 million civil penalty. The SEC's investigation, which is continuing, has been conducted by Patrick McCluskey and Cheryl Crumpton of the SEC Enforcement Division's Market Abuse Unit in the New York Regional Office.Â  The SEC appreciates the assistance of the Financial Industry Regulatory Authority of the United Kingdom, the Canadian Securities Commission, the Alberta Securities Commission and the Ontario Securities Commission.
 ```
 
